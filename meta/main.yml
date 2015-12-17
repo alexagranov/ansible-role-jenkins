@@ -1,11 +1,11 @@
 ---
 dependencies:
-  - { role: geerlingguy.java }
+  - { role: binarytemple.java }
 
 galaxy_info:
-  author: geerlingguy
+  author: binarytemple
   description: Jenkins CI
-  company: "Midwestern Mac, LLC"
+  company: binarytemple"
   license: "license (BSD, MIT)"
   min_ansible_version: 1.4
   platforms:
