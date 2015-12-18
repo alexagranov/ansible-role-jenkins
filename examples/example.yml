@@ -1,10 +1,10 @@
 ---
-- hosts: localhost
-  remote_user: root
+- hosts: all
+  sudo: yes
 
   vars:
     - jenkins_http_port: 8081
 
   roles:
     - binarytemple.java
-    - ansible-role-jenkins
+    - binarytemple.jenkins
