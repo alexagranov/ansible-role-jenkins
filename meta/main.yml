@@ -1,11 +1,11 @@
 ---
 dependencies:
-  - { role: binarytemple.java }
+  - { role: williamyeh.oracle-java }
 
 galaxy_info:
-  author: binarytemple
+  author: GoneBusy
   description: Jenkins CI
-  company: binarytemple"
+  company: 'GoneBusy Inc.'
   license: "license (BSD, MIT)"
   min_ansible_version: 1.4
   platforms:
