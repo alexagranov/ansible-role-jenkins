@@ -1,8 +1,8 @@
 # Ansible Role: Jenkins CI
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-jenkins)
+[![Build Status](https://travis-ci.org/alexagranov/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/alexagranov/ansible-role-jenkins)
 
-Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers.
+Installs Jenkins CI on RHEL/CentOS and Debian/Ubuntu servers with Oracle JDK via williamyeh/oracle-java rather than OpenJDK.
 
 ## Requirements
 
