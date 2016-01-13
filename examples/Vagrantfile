@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 # Ensure basho.riak-common dependency is in place
 if [ "up", "provision" ].include?(ARGV.first) && File.directory?("roles") &&
-  !(File.directory?("roles/binarytemple.java") || File.symlink?("roles/binarytemple.java"))
+  !(File.directory?("roles/williamyeh.oracle-java") || File.symlink?("roles/williamyeh.oracle-java"))
   system("ansible-galaxy install -r roles.txt -p roles --ignore-errors")
 end
 
@@ -24,7 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |cluster|
   end
 
   cluster.vm.define "example" do |machine|
-      machine.vm.hostname = "binarytemple.jenkins"
+      machine.vm.hostname = "alexagranov.jenkins-oracle-java"
       machine.vm.provision "ansible" do |ansible|
         ansible.playbook = "./example.yml"
         ansible.verbose = "vvvv"

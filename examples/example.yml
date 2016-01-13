@@ -13,5 +13,5 @@
   vars:
     - jenkins_http_port: 8081
   roles:
-    - binarytemple.java
-    - binarytemple.jenkins
+    - williamyeh.oracle-java
+    - alexagranov.jenkins-oracle-java

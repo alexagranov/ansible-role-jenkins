@@ -6,5 +6,5 @@
     - jenkins_http_port: 8081
 
   roles:
-    - binarytemple.java
+    - williamyeh.oracle-java
     - ansible-role-jenkins

@@ -2,5 +2,5 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - binarytemple.java
+    - williamyeh.oracle-java
     - ansible-role-jenkins

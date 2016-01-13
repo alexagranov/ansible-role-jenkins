@@ -6,5 +6,5 @@
     - jenkins_url_prefix: /jenkins
 
   roles:
-    - binarytemple.java
+    - williamyeh.oracle-java
     - ansible-role-jenkins
