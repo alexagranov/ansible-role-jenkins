@@ -1,7 +1,6 @@
 ---
 dependencies:
-  roles:
-    - williamyeh.oracle-java
+  - { role: williamyeh.oracle-java }
 
 galaxy_info:
   author: GoneBusy
